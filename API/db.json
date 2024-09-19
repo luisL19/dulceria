@@ -1,0 +1,267 @@
+{
+  "users": [
+    {
+      "id": "4",
+      "username": "juan",
+      "email": "juan@example.com",
+      "password": "123456789",
+      "name": "Juan",
+      "role": "cliente"
+    },
+    {
+      "name": "miguel",
+      "username": "miguelpro",
+      "email": "miguel@gmail.com",
+      "password": "123456789",
+      "role": "cliente",
+      "id": "47bf"
+    },
+    {
+      "id": "c855",
+      "email": "claudia@gmail.com",
+      "password": "0987654321",
+      "name": "claudia",
+      "role": "cliente"
+    },
+    {
+      "id": "275d",
+      "email": "narly@gmail.com",
+      "password": "123456789",
+      "name": "narly",
+      "role": "cliente"
+    },
+    {
+      "id": "eca7",
+      "email": "pepe@example.com",
+      "password": "1234567890",
+      "name": "pepe",
+      "role": "cliente"
+    }
+  ],
+  "carts": [
+    {
+      "id": "5871",
+      "name": "Gomitas bon bon bum ",
+      "price": "2.200",
+      "description": "Gomitas bon bon bum, tiene 45 gramos y 3 porciones ",
+      "image": "https://balloonsbogota.com/cdn/shop/files/GOMASDEBONBONBUMGOMITASBONBONBUMGOMITASDEBONBONBUM_696x927.jpg?v=1708022365",
+      "category": "gomitas",
+      "region": "nacional",
+      "email": "juan@example.com"
+    },
+    {
+      "id": "8edd",
+      "name": "Galletas festival chocolate 12 X4",
+      "price": "10.000",
+      "description": "Galletas festival sabor chocolate 12 x 4 para compartir",
+      "image": "https://mundodulces17.com/wp-content/uploads/2023/03/festival-chocolate-x-4.jpg",
+      "category": "galletas",
+      "region": "nacional",
+      "email": null
+    },
+    {
+      "id": "a21d",
+      "name": "Galletas Oreo Original",
+      "price": "12.83",
+      "description": "Galletas Oreo Original x12 Uds\n\nLas clásicas Oreo tipo sándwich son unas galletas rellenas de crema con sabor a vainilla, ideales para desayunos y meriendas. Disfruta de su sabor único solas o acompañadas de un vaso de leche.\n\nParticipa en el ritual característico de estas galletas: Gira, Saborea y Remoja.\n\nIdeales para incluir en recetas y postres variados, son una excelente opción para llevar contigo y disfrutar de un tentempié en cualquier momento del día.\n\nEl contenido de la bolsa incluye 12 paquetes con 4 galletas cada uno.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_739955-MLU78169165489_082024-O.webp",
+      "category": "galletas",
+      "region": "internacional",
+      "email": null
+    },
+    {
+      "id": "bdca",
+      "name": "Gomitas trululu ",
+      "price": "2.60",
+      "description": "paquete de gomitas trululu feroz",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_629283-MLA49822268552_052022-O.webp",
+      "category": "gomitas",
+      "region": "national",
+      "email": null
+    },
+    {
+      "id": "2dcd",
+      "name": "Chocolatina Jet Gool Balones Bolsa X 10 - kg",
+      "price": "2.50",
+      "description": "Jet Gol son pequeñas bolitas de chocolate Jet con un delicioso sabor y en la porción perfecta para disfrutar cuando tienes un pequeño antojo de chocolate. Este producto, fabricado por Nacional de Chocolates, viene en una práctica bolsa con 100 unidades, ideal para compartir o para tener siempre a mano. Los bombones tienen un exquisito sabor a chocolate con leche que encantará a todos los amantes del chocolate. ",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_876616-MLU74229737590_022024-O.webp",
+      "category": "chocolates",
+      "region": "nacional",
+      "email": null
+    },
+    {
+      "id": "9a0b",
+      "name": "Galletas Chokis Clasica X 6 Und",
+      "price": "10.20",
+      "description": "Galletas Chokis clásicas con chips de chocolate.\n\nPack con contenido de 6 paquetes individuales los cuales contienen 37 gm - 4 unidades de galletas por paquete individual.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_805347-MCO53258168528_012023-O.webp",
+      "category": "galletas",
+      "region": "nacional",
+      "email": null
+    }
+  ],
+  "products": [
+    {
+      "id": "2dcd",
+      "name": "Chocolatina Jet Gool Balones Bolsa X 10 - kg",
+      "price": "2.50",
+      "description": "Jet Gol son pequeñas bolitas de chocolate Jet con un delicioso sabor y en la porción perfecta para disfrutar cuando tienes un pequeño antojo de chocolate. Este producto, fabricado por Nacional de Chocolates, viene en una práctica bolsa con 100 unidades, ideal para compartir o para tener siempre a mano. Los bombones tienen un exquisito sabor a chocolate con leche que encantará a todos los amantes del chocolate. ",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_876616-MLU74229737590_022024-O.webp",
+      "category": "chocolates",
+      "region": "nacional"
+    },
+    {
+      "id": "a21d",
+      "name": "Galletas Oreo Original",
+      "price": "12.83",
+      "description": "Galletas Oreo Original x12 Uds\n\nLas clásicas Oreo tipo sándwich son unas galletas rellenas de crema con sabor a vainilla, ideales para desayunos y meriendas. Disfruta de su sabor único solas o acompañadas de un vaso de leche.\n\nParticipa en el ritual característico de estas galletas: Gira, Saborea y Remoja.\n\nIdeales para incluir en recetas y postres variados, son una excelente opción para llevar contigo y disfrutar de un tentempié en cualquier momento del día.\n\nEl contenido de la bolsa incluye 12 paquetes con 4 galletas cada uno.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_739955-MLU78169165489_082024-O.webp",
+      "category": "galletas",
+      "region": "internacional"
+    },
+    {
+      "id": "9a0b",
+      "name": "Galletas Chokis Clasica X 6 Und",
+      "price": "10.20",
+      "description": "Galletas Chokis clásicas con chips de chocolate.\n\nPack con contenido de 6 paquetes individuales los cuales contienen 37 gm - 4 unidades de galletas por paquete individual.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_805347-MCO53258168528_012023-O.webp",
+      "category": "galletas",
+      "region": "nacional"
+    },
+    {
+      "id": "bdca",
+      "name": "Gomitas trululu ",
+      "price": "2.60",
+      "description": "paquete de gomitas trululu feroz",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_629283-MLA49822268552_052022-O.webp",
+      "category": "gomitas",
+      "region": "national"
+    },
+    {
+      "id": "5458",
+      "name": "Galletas MUUU Leche (216 gr)",
+      "price": "6.550",
+      "description": "Und x CT: 30\n\nUnd x Env: 18\n\nPeso Unitario: 216\n\nGalletas Dulces Sabor Leche",
+      "image": "https://exitocol.vtexassets.com/arquivos/ids/24648320-1200-auto?v=638619250745470000&width=1200&height=auto&aspect=true",
+      "category": "galletas",
+      "region": "nacional"
+    },
+    {
+      "id": "8edd",
+      "name": "Galletas festival chocolate 12 X4",
+      "price": "10.000",
+      "description": "Galletas festival sabor chocolate 12 x 4 para compartir",
+      "image": "https://mundodulces17.com/wp-content/uploads/2023/03/festival-chocolate-x-4.jpg",
+      "category": "galletas",
+      "region": "nacional"
+    },
+    {
+      "id": "ee9b",
+      "name": "Galletas festival vainilla 12 X6",
+      "price": "13.000",
+      "description": "Galletas festival sabor vainilla con 12 paquetes con 6 galletas",
+      "image": "https://mundodulces17.com/wp-content/uploads/2023/03/185385-1600-1600.webp",
+      "category": "galletas",
+      "region": "nacional"
+    },
+    {
+      "id": "75fd",
+      "name": "Galletas festival limón 12 x4 ",
+      "price": "9.600",
+      "description": "Paquete de galletas festival sabor limón con 12 paquetes y 4 galletas por paquete",
+      "image": "https://dulceriawindy.com/wp-content/uploads/2022/12/httpsstorage.googleapis.comlarecetta-ibis-images1001572_2.jpg",
+      "category": "galletas",
+      "region": "nacional"
+    },
+    {
+      "id": "6924",
+      "name": "Agogo Atomo Azul x60",
+      "price": "7.000",
+      "description": "Dulces Agogo atomo color azul con 60 paquetes ",
+      "image": "https://dulceriawindy.com/wp-content/uploads/2023/01/Confi-Agogo-Atomico.jpg",
+      "category": "dulces",
+      "region": "internacional"
+    },
+    {
+      "id": "6617",
+      "name": "Agogo Atomo Surtido x60",
+      "price": "7.000",
+      "description": "Caja de dulces agogo atomo morado surtido con 60 paquetes ",
+      "image": "https://dulceriawindy.com/wp-content/uploads/2023/01/CHICLE-AGOGO-ATOMOS-SURTIDOS-X-60-UND.webp",
+      "category": "dulces",
+      "region": "internacional"
+    },
+    {
+      "id": "d004",
+      "name": "Bianchi Barra Pequeño Chocolate Blanco x12",
+      "price": "9.700",
+      "description": "Caja de dulces bianchi de chocolate blanco, tiene 12 paquetes",
+      "image": "https://dulceriawindy.com/wp-content/uploads/2023/01/descarga-39.jpg",
+      "category": "dulces",
+      "region": "internacional"
+    },
+    {
+      "id": "6201",
+      "name": "Bianchi Barra Pequeño chocolate x12",
+      "price": "9.700",
+      "description": "Caja de dulces bianchi de barra pequeños de sabor chocolate, contiene 12 paquetes",
+      "image": "https://dulceriawindy.com/wp-content/uploads/2023/01/203-large_default.jpg",
+      "category": "dulces",
+      "region": "internacional"
+    },
+    {
+      "id": "732a",
+      "name": "Jumbo Mini x24",
+      "price": "23.500",
+      "description": "Caja de chocolatinas Jumbo mini con 24 paquetes",
+      "image": "https://dulceriawindy.com/wp-content/uploads/2023/01/D_NQ_NP_788169-MCO41776430790_052020-O.jpg",
+      "category": "chocolates",
+      "region": "internacional"
+    },
+    {
+      "id": "bed1",
+      "name": "Jumbo Mediana x24",
+      "price": "61.000",
+      "description": "Caja de chocolatinas Jumbo medianas y con mani, contiene 24 paquetes",
+      "image": "https://dulceriawindy.com/wp-content/uploads/2023/01/httpsstorage.googleapis.comlarecetta-ibis-images1003850.jpg",
+      "category": "chocolates",
+      "region": "internacional"
+    },
+    {
+      "id": "74ff",
+      "name": "Caja chocolatinas Jet 1x50",
+      "price": "38.400",
+      "description": "Caja de chocolatina jet 50 unidades con 12 gramos",
+      "image": "https://dulceriawindy.com/wp-content/uploads/2023/01/httpsstorage.googleapis.comlarecetta-ibis-images1003833.jpg",
+      "category": "chocolates",
+      "region": "internacional"
+    },
+    {
+      "id": "e4b4",
+      "name": "Gomitas Trululu Sabores",
+      "price": "2.350",
+      "description": "Goma con recubrimiento confitado sabor frutal",
+      "image": "https://villavoexpress.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzA0NzIsInB1ciI6ImJsb2JfaWQifX0=--0926feb5be1b594cc7eeb893c62e958ef0c368c3/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZml0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1420d7fd3d20057726f0ef3c0043db24ca0403be/gomitas-trululu-sabores-por-90gr.jpg?locale=es",
+      "category": "gomitas",
+      "region": "internacional"
+    },
+    {
+      "id": "9c00",
+      "name": "Gomitas trululu gusanos",
+      "price": "7.700",
+      "description": "Goma trululu gusanos sabor acido con 100 gomitas",
+      "image": "https://mundodulces17.com/wp-content/uploads/2023/03/trululu-gusanos-acidos-bolsa-scaled.jpg",
+      "category": "gomitas",
+      "region": "internacional"
+    },
+    {
+      "id": "5871",
+      "name": "Gomitas bon bon bum ",
+      "price": "2.200",
+      "description": "Gomitas bon bon bum, tiene 45 gramos y 3 porciones ",
+      "image": "https://balloonsbogota.com/cdn/shop/files/GOMASDEBONBONBUMGOMITASBONBONBUMGOMITASDEBONBONBUM_696x927.jpg?v=1708022365",
+      "category": "gomitas",
+      "region": "nacional"
+    }
+  ]
+}

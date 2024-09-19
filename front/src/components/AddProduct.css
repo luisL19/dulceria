@@ -1,0 +1,59 @@
+/* src/components/AddProduct.css */
+.add-product-wrap {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-product-wrap h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.add-product-wrap form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-product-wrap .form-group {
+  margin-bottom: 20px;
+}
+
+.add-product-wrap label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.add-product-wrap input,
+.add-product-wrap select,
+.add-product-wrap textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.add-product-wrap textarea {
+  resize: vertical;
+}
+
+.add-product-wrap button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-product-wrap button:hover {
+  background-color: #218838;
+}
+
+.add-product-wrap .error-message {
+  color: red;
+  text-align: center;
+}

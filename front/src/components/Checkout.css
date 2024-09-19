@@ -1,0 +1,170 @@
+/* src/components/Checkout.css */
+
+.checkout-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.checkout-container {
+    flex: 3;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.step h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #550653;
+}
+
+.step label {
+    margin-bottom: 15px;
+    font-size: 16px;
+    display: block;
+}
+
+.step input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Asegura que el padding no haga que el ancho sea mayor */
+}
+
+.step button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #550653;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.step button:hover {
+    background-color: #440544;
+}
+
+.step-navigation {
+    display: flex;
+    margin-top: 20px;
+    justify-content: end;
+}
+
+.step-navigation button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.step-navigation .previous-button {
+    background-color: #e0e0e0;
+    color: #550653;
+}
+
+.step-navigation .previous-button:hover {
+    background-color: #d0d0d0;
+}
+
+.step-navigation .next-button {
+    background-color: #550653;
+    color: white;
+}
+
+.step-navigation .next-button:hover {
+    background-color: #440544;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.checkout-summary {
+    flex: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.checkout-summary h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #550653;
+}
+
+.checkout-summary ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.checkout-summary li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.checkout-summary img {
+    width: 80px; /* Ajusta el tamaño de la imagen del producto */
+    height: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.checkout-summary .product-info {
+    flex: 1;
+}
+
+.checkout-summary .product-info h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #550653;
+}
+
+.checkout-summary .product-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.checkout-summary .product-info .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #550653;
+}
+
+.checkout-summary .total {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #550653;
+}

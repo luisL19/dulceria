@@ -1,0 +1,107 @@
+.shopping-cart {
+  position: fixed;
+  top: 0;
+  right: -400px;
+  width: 400px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.5);
+  transition: right 0.3s ease;
+  z-index: 1000;
+  overflow-y: auto; /* Asegura que el contenido sea visible si se desborda */
+}
+
+.shopping-cart.open {
+  right: 0;
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #550653;
+  color: white;
+}
+
+.cart-items {
+  padding: 20px;
+}
+
+.cart-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.cart-item img {
+  width: 80px;
+  margin-right: 20px;
+}
+
+.cart-summary {
+  padding: 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+/* Nuevas reglas para los formularios */
+.purchase-details {
+  margin: 10px 0;
+}
+
+.purchase-details label {
+  display: block;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.purchase-details input, 
+.purchase-details select {
+  width: calc(100% - 20px); /* Ajusta el ancho para el padding */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.purchase-button {
+  background-color: #550653;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.purchase-button:hover {
+  background-color: #440544;
+}
+
+/* Nuevas reglas para la sección de confirmación */
+.confirmation-section {
+  margin-top: 20px;
+}
+
+.confirmation-section h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #550653;
+}
+
+.confirmation-section p {
+  margin: 5px 0;
+}
+
+.confirmation-section button {
+  background-color: #550653;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.confirmation-section button:hover {
+  background-color: #440544;
+}

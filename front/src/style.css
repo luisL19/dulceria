@@ -1,0 +1,236 @@
+body {
+    font-family: cursive; /* Cambiado a cursive */
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 90px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav .nav-button {
+    background-color: #FFD700;
+    color: #4A2E06;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.main-nav .nav-button:hover {
+    background-color: #e5c100;
+}
+
+.search-icon {
+    color: #FFD700;
+    font-size: 1.2em;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.user-options {
+    display: flex;
+    margin-left: 10px;
+}
+
+.user-options a {
+    color: #fff; /* Asegúrate de que los íconos sean visibles */
+    font-size: 1.5rem; /* Tamaño del ícono */
+    margin-left: 10px; /* Espaciado entre íconos */
+}
+
+
+.hero {
+    position: relative; /* Asegura que los elementos hijos se posicionen respecto a esta sección */
+    text-align: center;
+    overflow: hidden;
+    padding: 0; /* Elimina el relleno para que la imagen de fondo cubra toda la sección */
+    margin-bottom: 30px; /* Margen inferior para separar del contenido siguiente */
+}
+
+.hero-carousel {
+    position: relative;
+    height: 400px; /* Ajusta según el tamaño deseado para cubrir el espacio en blanco */
+}
+
+.hero-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+}
+
+.hero-slide.active {
+    opacity: 1;
+}
+
+.hero-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.hero-controls button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    color: #0B2744;
+    /* La fuente cursive se aplica a todo el body, así que no es necesario especificarla aquí */
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px; /* Añadido margen inferior para separar de la siguiente sección */
+}
+
+.category {
+    margin: 10px;
+    text-align: center;
+    /* La fuente cursive se aplica a todo el body, así que no es necesario especificarla aquí */
+}
+
+.category a {
+    text-decoration: none;
+    color: #000;
+}
+
+.category img {
+    width: 70px;
+    height: 70px;
+}
+
+.product-filter {
+    padding: 20px;
+    background: #f4f4f4;
+    margin-top: -40px; /* Añadido margen superior para separar del contenido anterior */
+}
+
+.filter-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filter-options label {
+    margin-right: 10px;
+}
+
+.filter-options input {
+    padding: 5px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.filter-options select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.product-grid .product-item {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.product-grid .product-item img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #550653;
+    color: #fff;
+    padding: 20px 0;
+    /* La fuente cursive se aplica a todo el body, así que no es necesario especificarla aquí */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-section {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    display: block;
+    color: #FFD700;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #FFD700;
+}
+

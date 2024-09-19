@@ -1,0 +1,87 @@
+.product-filter {
+  display: flex;
+}
+
+.filter-section {
+  flex: 1;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-right: 1px solid #ddd; /* Línea divisoria entre filtro y lista de productos */
+}
+
+.filter-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-options label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.filter-options input,
+.filter-options select {
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.product-list-section {
+  flex: 3;
+  padding: 20px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espacio entre tarjetas de producto */
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 200px; /* Ancho fijo para las tarjetas */
+  flex-shrink: 0; /* Evita que las tarjetas se encojan */
+}
+
+.product-card img {
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product-card h3,
+.product-card p {
+  margin: 5px 0;
+}
+
+.product-card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px; /* Margen para separar botones */
+}
+
+.product-card .view-product-button {
+  background-color: #28a745;
+}
+
+.product-card .view-product-button:hover {
+  background-color: #218838;
+}
+
+.product-card .add-to-cart-button {
+  background-color: #007bff;
+}
+
+.product-card .add-to-cart-button:hover {
+  background-color: #0056b3;
+}
